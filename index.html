@@ -1,152 +1,123 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kkotgil — Find the right flower trail at the right time</title>
-  <meta name="description" content="Kkotgil is a mobile-first local discovery app for seasonal flower trails, walking routes, accessibility details, and field reports in Korea." />
-  <meta property="og:title" content="Kkotgil — Seasonal flower trail discovery" />
-  <meta property="og:description" content="A mobile-first app helping people find seasonal flower trails and walking routes in Korea." />
+  <title>꽃길 — 지금 걷기 좋은 꽃길을 찾는 앱</title>
+  <meta name="description" content="꽃길은 계절별 꽃길, 산책 코스, 접근성 정보, 현장 제보를 한곳에서 확인하는 모바일 앱입니다." />
+  <meta property="og:title" content="꽃길 — 지금 걷기 좋은 꽃길을 찾는 앱" />
+  <meta property="og:description" content="계절별 꽃길과 산책 코스를 더 쉽게 찾는 모바일 앱, 꽃길." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://kkotgil.github.io/" />
   <meta name="theme-color" content="#2B4E41" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Kkotgil home">
+    <a class="brand" href="#top" aria-label="꽃길 홈">
       <span class="brand-mark">꽃</span>
-      <span>Kkotgil</span>
+      <span>꽃길 Kkotgil</span>
     </a>
-    <nav aria-label="Primary navigation">
-      <a href="#product">Product</a>
-      <a href="#pilot">Pilot</a>
-      <a href="#technology">Technology</a>
-      <a class="nav-cta" href="mailto:hello@studionani.kr">Contact</a>
+    <nav aria-label="주요 메뉴">
+      <a href="#product">서비스</a>
+      <a href="#pilot">파일럿</a>
+      <a href="#technology">기술 계획</a>
+      <a class="nav-cta" href="mailto:hello@studionani.kr">문의하기</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow">Mobile app · Seoul pilot · Seasonal local discovery</p>
-        <h1>Find the right flower trail at the right time.</h1>
-        <p class="lead">Kkotgil helps people discover seasonal flower trails, walking routes, accessibility details, and field reports in Korea — starting with a focused Seoul pilot.</p>
+        <p class="eyebrow">모바일 앱 · 서울 파일럿 · 계절형 로컬 디스커버리</p>
+        <h1>지금 걷기 좋은 꽃길을 더 쉽게 찾습니다.</h1>
+        <p class="lead">꽃길은 계절별 개화 시기, 산책 코스, 접근성 정보, 현장 제보를 한곳에서 확인하게 해주는 모바일 앱입니다. 현재는 서울 동남권 중심의 프라이빗 베타로 시작합니다.</p>
         <div class="cta-row">
-          <a class="button primary" href="mailto:hello@studionani.kr?subject=Kkotgil%20partnership">Contact Studio Nani</a>
-          <a class="button secondary" href="#technology">View AWS plan</a>
+          <a class="button primary" href="mailto:hello@studionani.kr?subject=꽃길%20문의">Studio Nani에 문의</a>
+          <a class="button secondary" href="#technology">기술 계획 보기</a>
         </div>
-        <dl class="hero-stats" aria-label="Kkotgil pilot highlights">
-          <div><dt>30+</dt><dd>pilot routes curated</dd></div>
-          <div><dt>3</dt><dd>core route services</dd></div>
-          <div><dt>2026</dt><dd>private beta build</dd></div>
+        <dl class="hero-stats" aria-label="꽃길 파일럿 핵심 지표">
+          <div><dt>30+</dt><dd>파일럿 후보 코스</dd></div>
+          <div><dt>3</dt><dd>핵심 코스 서비스</dd></div>
+          <div><dt>2026</dt><dd>프라이빗 베타 빌드</dd></div>
         </dl>
       </div>
 
-      <div class="phone-shell" aria-label="Kkotgil app concept preview">
+      <figure class="phone-shell screenshot-shell" aria-label="꽃길 앱 실제 실행 화면">
         <div class="phone-top"></div>
-        <div class="app-screen">
-          <div class="app-bar">
-            <span>Today near you</span>
-            <strong>Now blooming</strong>
-          </div>
-          <div class="map-card">
-            <span class="pin pin-a"></span>
-            <span class="pin pin-b"></span>
-            <span class="pin pin-c"></span>
-            <svg viewBox="0 0 260 200" role="img" aria-label="stylized route map">
-              <path d="M18 145 C55 96 84 156 118 104 S182 65 238 92" fill="none" stroke="#2B4E41" stroke-width="10" stroke-linecap="round" opacity=".18"/>
-              <path d="M22 150 C58 101 84 158 119 107 S183 70 234 93" fill="none" stroke="#77A87E" stroke-width="4" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <div class="route-card active">
-            <div>
-              <span class="tag">Cherry blossom</span>
-              <h3>Seokchon Lake loop</h3>
-              <p>Bloom window · easy walk · lakeside route</p>
-            </div>
-            <span class="status">Good today</span>
-          </div>
-          <div class="route-card">
-            <div>
-              <span class="tag muted">Field report</span>
-              <h3>Olympic Park trail</h3>
-              <p>Updated by local visitors</p>
-            </div>
-            <span class="status muted">Checking</span>
-          </div>
-        </div>
-      </div>
+        <img class="app-screenshot" src="assets/app-screenshot.png" alt="iOS 시뮬레이터에서 실행한 꽃길 앱 위치 권한 요청 화면" />
+        <figcaption>실제 iOS 시뮬레이터에서 실행한 꽃길 앱 화면</figcaption>
+      </figure>
     </section>
 
     <section id="product" class="section split">
       <div>
-        <p class="eyebrow">Problem</p>
-        <h2>Flower trail information is beautiful, but fragmented.</h2>
+        <p class="eyebrow">문제</p>
+        <h2>꽃길 정보는 예쁘지만, 방문 판단은 여전히 어렵습니다.</h2>
       </div>
       <div class="copy-stack">
-        <p>Seasonal flower spots change quickly. Visitors often rely on scattered blogs, outdated map listings, and social posts without knowing whether a route is still worth visiting today.</p>
-        <p>Kkotgil brings route curation, bloom-season filters, saved places, accessibility notes, and lightweight field reports into one mobile-first experience.</p>
+        <p>계절 꽃 명소는 상태가 빠르게 바뀝니다. 방문자는 블로그, 지도 리뷰, SNS 게시물을 따로 확인해야 하고, 오늘 가도 괜찮은지 판단하기 어렵습니다.</p>
+        <p>꽃길은 코스 큐레이션, 계절 필터, 저장한 장소, 접근성 메모, 짧은 현장 제보를 모바일 경험 안에 모아 실제 방문 결정을 쉽게 만듭니다.</p>
       </div>
     </section>
 
-    <section class="section feature-grid" aria-label="Product features">
+    <section class="section feature-grid" aria-label="주요 기능">
       <article class="feature-card">
         <span class="feature-icon">✿</span>
-        <h3>Seasonal discovery</h3>
-        <p>Filter flower trails by current bloom season and practical visit timing.</p>
+        <h3>계절별 탐색</h3>
+        <p>지금 계절에 보기 좋은 꽃과 코스를 우선 보여주고, 방문 타이밍을 좁혀줍니다.</p>
       </article>
       <article class="feature-card">
         <span class="feature-icon">⌁</span>
-        <h3>Walking routes</h3>
-        <p>Map-based routes, distance cues, and saved places for repeat visits.</p>
+        <h3>산책 코스</h3>
+        <p>지도 기반 경로, 거리 정보, 저장한 장소를 연결해 다시 찾기 쉬운 산책 경험을 만듭니다.</p>
       </article>
       <article class="feature-card">
         <span class="feature-icon">✓</span>
-        <h3>Field reports</h3>
-        <p>Short user submissions help validate real-world conditions before a wider release.</p>
+        <h3>현장 제보</h3>
+        <p>짧은 방문자 제보로 개화 상태와 현장 조건을 확인하고, 이후 더 정확한 추천으로 확장합니다.</p>
       </article>
     </section>
 
     <section id="pilot" class="section pilot-panel">
       <div>
-        <p class="eyebrow light">Current pilot</p>
-        <h2>Starting dense, then expanding region by region.</h2>
-        <p>Kkotgil is beginning with a Seoul southeast pilot to validate route quality, saved-route behavior, and field-status updates before national expansion.</p>
+        <p class="eyebrow light">현재 파일럿</p>
+        <h2>작게 검증하고, 지역별로 확장합니다.</h2>
+        <p>꽃길은 서울 동남권 파일럿에서 코스 품질, 저장/재방문 행동, 현장 상태 업데이트를 검증한 뒤 전국 주요 꽃길과 산책 코스로 확장할 계획입니다.</p>
       </div>
       <div class="milestone-list">
-        <div><strong>01</strong><span>Private beta mobile app</span></div>
-        <div><strong>02</strong><span>Curated Seoul route database</span></div>
-        <div><strong>03</strong><span>Community field reports</span></div>
-        <div><strong>04</strong><span>AI-assisted classification roadmap</span></div>
+        <div><strong>01</strong><span>프라이빗 베타 모바일 앱</span></div>
+        <div><strong>02</strong><span>서울 주요 코스 데이터 정리</span></div>
+        <div><strong>03</strong><span>커뮤니티 현장 제보</span></div>
+        <div><strong>04</strong><span>AI 보조 분류·요약 로드맵</span></div>
       </div>
     </section>
 
     <section id="technology" class="section tech-section">
       <div class="section-heading">
-        <p class="eyebrow">Technology plan</p>
-        <h2>Built for a lean AWS-backed pilot.</h2>
-        <p>Kkotgil’s current backend uses small Go API services with a Supabase/PostGIS data layer. AWS credits will help move the mobile backend from private testing toward a stable production pilot.</p>
+        <p class="eyebrow">기술 계획</p>
+        <h2>작고 안정적인 파일럿 인프라부터 시작합니다.</h2>
+        <p>현재 꽃길 백엔드는 Go 기반 API 서비스와 Supabase/PostGIS 데이터 레이어를 사용합니다. AWS 크레딧은 비공개 테스트에서 안정적인 프로덕션 파일럿으로 옮기는 데 활용할 계획입니다.</p>
       </div>
       <div class="tech-grid">
         <article>
-          <h3>API hosting</h3>
-          <p>Host Go-based backend services for routes, community updates, and user features with a low-cost architecture.</p>
+          <h3>API 호스팅</h3>
+          <p>코스, 커뮤니티 업데이트, 사용자 기능을 위한 Go API를 저비용 구조로 운영합니다.</p>
         </article>
         <article>
-          <h3>Route data delivery</h3>
-          <p>Serve route and map-related static data efficiently as user traffic grows beyond private testing.</p>
+          <h3>코스 데이터 전달</h3>
+          <p>사용자가 늘어나도 지도·코스 관련 정적 데이터를 안정적으로 제공합니다.</p>
         </article>
         <article>
-          <h3>Observability</h3>
-          <p>Monitor logs, errors, latency, and application health during the Seoul pilot.</p>
+          <h3>관측성</h3>
+          <p>파일럿 기간 동안 로그, 오류, 지연 시간, 서비스 상태를 확인합니다.</p>
         </article>
         <article>
-          <h3>Future AI support</h3>
-          <p>Classify field reports, summarize bloom status, and recommend routes with human review and cost controls.</p>
+          <h3>AI 보조 기능</h3>
+          <p>현장 제보 분류, 개화 상태 요약, 코스 추천을 사람 검수와 비용 통제 하에 확장합니다.</p>
         </article>
       </div>
     </section>
@@ -154,21 +125,21 @@
     <section class="section founder-section">
       <div>
         <p class="eyebrow">Studio Nani</p>
-        <h2>Independent, product-first, and built from Korea.</h2>
+        <h2>한국에서 작게 만들고 빠르게 검증합니다.</h2>
       </div>
-      <p>Kkotgil is operated by Studio Nani as an early-stage mobile product. We are focused on building a practical route discovery experience before expanding into broader local tourism, wellness, and community data partnerships.</p>
+      <p>꽃길은 Studio Nani가 운영하는 초기 모바일 제품입니다. 먼저 실용적인 꽃길·산책 코스 탐색 경험을 만들고, 이후 로컬 관광, 웰니스, 커뮤니티 데이터 파트너십으로 확장합니다.</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div>
-      <strong>Kkotgil</strong>
-      <p>Seasonal flower trail discovery for Korea.</p>
+      <strong>꽃길 Kkotgil</strong>
+      <p>계절별 꽃길과 산책 코스를 찾는 모바일 앱.</p>
     </div>
     <div class="footer-links">
       <a href="mailto:hello@studionani.kr">hello@studionani.kr</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="contact.html">Contact</a>
+      <a href="privacy.html">개인정보</a>
+      <a href="contact.html">문의</a>
       <a href="https://github.com/kkotgil" rel="noreferrer">GitHub</a>
     </div>
   </footer>
