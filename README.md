@@ -1,6 +1,6 @@
-# Kkotgil public landing page
+# 꽃길 Kkotgil public landing page
 
-Public GitHub Pages site for Kkotgil, a seasonal flower trail discovery mobile app by Studio Nani.
+Public GitHub Pages site for 꽃길(Kkotgil), a seasonal flower trail discovery mobile app by Studio Nani.
 
 - Site: https://kkotgil.github.io/
 - Purpose: public product presence and AWS Activate application support
