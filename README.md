@@ -1,9 +1,10 @@
-# 꽃길 Kkotgil public landing page
+# 꽃길 Kkotgil public website
 
-Public GitHub Pages site for 꽃길(Kkotgil), a seasonal flower trail discovery mobile app by Studio Nani.
+Public GitHub Pages website for 꽃길(Kkotgil), a seasonal flower trail discovery mobile app by Studio Nani.
 
 - Site: https://kkotgil.github.io/
-- Purpose: public product presence and AWS Activate application support
+- Purpose: public product website for users, testers, and partners
+- Contact: studionani.official@gmail.com
 - App code: intentionally not included in this public repository
 
 ## Local preview
