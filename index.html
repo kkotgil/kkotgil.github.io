@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kkotgil — Find the right flower trail at the right time</title>
+  <meta name="description" content="Kkotgil is a mobile-first local discovery app for seasonal flower trails, walking routes, accessibility details, and field reports in Korea." />
+  <meta property="og:title" content="Kkotgil — Seasonal flower trail discovery" />
+  <meta property="og:description" content="A mobile-first app helping people find seasonal flower trails and walking routes in Korea." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kkotgil.github.io/" />
+  <meta name="theme-color" content="#2B4E41" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Kkotgil home">
+      <span class="brand-mark">꽃</span>
+      <span>Kkotgil</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#product">Product</a>
+      <a href="#pilot">Pilot</a>
+      <a href="#technology">Technology</a>
+      <a class="nav-cta" href="mailto:hello@studionani.kr">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Mobile app · Seoul pilot · Seasonal local discovery</p>
+        <h1>Find the right flower trail at the right time.</h1>
+        <p class="lead">Kkotgil helps people discover seasonal flower trails, walking routes, accessibility details, and field reports in Korea — starting with a focused Seoul pilot.</p>
+        <div class="cta-row">
+          <a class="button primary" href="mailto:hello@studionani.kr?subject=Kkotgil%20partnership">Contact Studio Nani</a>
+          <a class="button secondary" href="#technology">View AWS plan</a>
+        </div>
+        <dl class="hero-stats" aria-label="Kkotgil pilot highlights">
+          <div><dt>30+</dt><dd>pilot routes curated</dd></div>
+          <div><dt>3</dt><dd>core route services</dd></div>
+          <div><dt>2026</dt><dd>private beta build</dd></div>
+        </dl>
+      </div>
+
+      <div class="phone-shell" aria-label="Kkotgil app concept preview">
+        <div class="phone-top"></div>
+        <div class="app-screen">
+          <div class="app-bar">
+            <span>Today near you</span>
+            <strong>Now blooming</strong>
+          </div>
+          <div class="map-card">
+            <span class="pin pin-a"></span>
+            <span class="pin pin-b"></span>
+            <span class="pin pin-c"></span>
+            <svg viewBox="0 0 260 200" role="img" aria-label="stylized route map">
+              <path d="M18 145 C55 96 84 156 118 104 S182 65 238 92" fill="none" stroke="#2B4E41" stroke-width="10" stroke-linecap="round" opacity=".18"/>
+              <path d="M22 150 C58 101 84 158 119 107 S183 70 234 93" fill="none" stroke="#77A87E" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="route-card active">
+            <div>
+              <span class="tag">Cherry blossom</span>
+              <h3>Seokchon Lake loop</h3>
+              <p>Bloom window · easy walk · lakeside route</p>
+            </div>
+            <span class="status">Good today</span>
+          </div>
+          <div class="route-card">
+            <div>
+              <span class="tag muted">Field report</span>
+              <h3>Olympic Park trail</h3>
+              <p>Updated by local visitors</p>
+            </div>
+            <span class="status muted">Checking</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="product" class="section split">
+      <div>
+        <p class="eyebrow">Problem</p>
+        <h2>Flower trail information is beautiful, but fragmented.</h2>
+      </div>
+      <div class="copy-stack">
+        <p>Seasonal flower spots change quickly. Visitors often rely on scattered blogs, outdated map listings, and social posts without knowing whether a route is still worth visiting today.</p>
+        <p>Kkotgil brings route curation, bloom-season filters, saved places, accessibility notes, and lightweight field reports into one mobile-first experience.</p>
+      </div>
+    </section>
+
+    <section class="section feature-grid" aria-label="Product features">
+      <article class="feature-card">
+        <span class="feature-icon">✿</span>
+        <h3>Seasonal discovery</h3>
+        <p>Filter flower trails by current bloom season and practical visit timing.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">⌁</span>
+        <h3>Walking routes</h3>
+        <p>Map-based routes, distance cues, and saved places for repeat visits.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">✓</span>
+        <h3>Field reports</h3>
+        <p>Short user submissions help validate real-world conditions before a wider release.</p>
+      </article>
+    </section>
+
+    <section id="pilot" class="section pilot-panel">
+      <div>
+        <p class="eyebrow light">Current pilot</p>
+        <h2>Starting dense, then expanding region by region.</h2>
+        <p>Kkotgil is beginning with a Seoul southeast pilot to validate route quality, saved-route behavior, and field-status updates before national expansion.</p>
+      </div>
+      <div class="milestone-list">
+        <div><strong>01</strong><span>Private beta mobile app</span></div>
+        <div><strong>02</strong><span>Curated Seoul route database</span></div>
+        <div><strong>03</strong><span>Community field reports</span></div>
+        <div><strong>04</strong><span>AI-assisted classification roadmap</span></div>
+      </div>
+    </section>
+
+    <section id="technology" class="section tech-section">
+      <div class="section-heading">
+        <p class="eyebrow">Technology plan</p>
+        <h2>Built for a lean AWS-backed pilot.</h2>
+        <p>Kkotgil’s current backend uses small Go API services with a Supabase/PostGIS data layer. AWS credits will help move the mobile backend from private testing toward a stable production pilot.</p>
+      </div>
+      <div class="tech-grid">
+        <article>
+          <h3>API hosting</h3>
+          <p>Host Go-based backend services for routes, community updates, and user features with a low-cost architecture.</p>
+        </article>
+        <article>
+          <h3>Route data delivery</h3>
+          <p>Serve route and map-related static data efficiently as user traffic grows beyond private testing.</p>
+        </article>
+        <article>
+          <h3>Observability</h3>
+          <p>Monitor logs, errors, latency, and application health during the Seoul pilot.</p>
+        </article>
+        <article>
+          <h3>Future AI support</h3>
+          <p>Classify field reports, summarize bloom status, and recommend routes with human review and cost controls.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section founder-section">
+      <div>
+        <p class="eyebrow">Studio Nani</p>
+        <h2>Independent, product-first, and built from Korea.</h2>
+      </div>
+      <p>Kkotgil is operated by Studio Nani as an early-stage mobile product. We are focused on building a practical route discovery experience before expanding into broader local tourism, wellness, and community data partnerships.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Kkotgil</strong>
+      <p>Seasonal flower trail discovery for Korea.</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:hello@studionani.kr">hello@studionani.kr</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/kkotgil" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
